@@ -1,3 +1,5 @@
+import profilePic from '../images/profile-pic.jpeg';
+
 export default function About() {
   return (
     <section id="about" className="min-h-screen bg-gray-900 text-white px-6 py-20 flex items-center">
@@ -6,7 +8,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="flex justify-center">
           <img
-            src="https://shubham-raj-keshri.github.io/My-Portfolio/images/Profile%20-pic.jpeg"
+            src={profilePic}
             alt="profile"
             className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl border border-gray-700"
           />
@@ -19,15 +21,15 @@ export default function About() {
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            I'm <span className="font-semibold text-white">Shubham Raj Keshri</span>, a passionate 
-            Frontend Developer specializing in building clean, responsive, and modern web applications. 
-            I enjoy crafting intuitive UI/UX using 
+            I'm <span className="font-semibold text-white">Shubham Raj Keshri</span>, a passionate
+            Frontend Developer specializing in building clean, responsive, and modern web applications.
+            I enjoy crafting intuitive UI/UX using
             <span className="text-orange-400"> ReactJS, Redux, JavaScript, Tailwind CSS, and REST APIs</span>.
           </p>
 
           <p className="text-gray-300 text-lg leading-relaxed mt-4">
-            With hands-on experience delivering <span className="font-semibold text-white">200+ e-learning solutions</span> 
-            and developing scalable React projects, I focus on clean architecture, reusable components, state management 
+            With hands-on experience delivering <span className="font-semibold text-white">200+ e-learning solutions</span>
+            and developing scalable React projects, I focus on clean architecture, reusable components, state management
             (Redux + Thunk), and seamless API integration using Axios. I love transforming ideas into beautiful, functional,
             and high-performance digital experiences.
           </p>
