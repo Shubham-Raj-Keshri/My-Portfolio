@@ -1,6 +1,17 @@
 export default function Projects() {
   const projects = [
-    // 1️⃣ Fashion Cube – E-commerce App
+    // 1 Klue Drinks / Klue Website
+{
+  title: "Klue Drinks",
+  description:
+    "A modern, responsive learning platform built with React, featuring clean UI, reusable components, smooth client-side navigation, and optimized performance for a seamless user experience.",
+  tech: ["React", "Tailwind CSS", "React Router", "Context API"],
+  image: "/projects/klue.png",
+  demo: "https://shubham-raj-keshri.github.io/klue-drink/",
+  github: "https://shubham-raj-keshri.github.io/klue-drink/",
+},
+
+// 2 Fashion Cube – E-commerce App
     {
       title: "Fashion Cube – E-commerce Web Application",
       description:
@@ -20,7 +31,7 @@ export default function Projects() {
       github: "#",
     },
 
-    // 2️⃣ Jewel’s Galore – Full-Stack E-commerce
+    // 3 Jewel’s Galore – Full-Stack E-commerce
     {
       title: "Jewel’s Galore – E-Commerce Website",
       description:
@@ -39,7 +50,7 @@ export default function Projects() {
       github: "https://github.com/Shubham-Raj-Keshri/Jewel-s-Galore",
     },
 
-    // 3️⃣ Responsive Grocery / Restaurant Website
+    // 4 Responsive Grocery / Restaurant Website
     {
       title: "Responsive Grocery Website",
       description:
@@ -50,10 +61,8 @@ export default function Projects() {
       github: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
     },
 
-  
 
-
-    // 5️⃣ Todo App – React State Management Practice
+    // 5 Todo App – React State Management Practice
     {
       title: "Todo App",
       description:
@@ -64,7 +73,7 @@ export default function Projects() {
       github: "#",
     },
 
-    // 6️⃣ Student LMS Project from Resume
+    // 6 Student LMS Project from Resume
     {
       title: "Student Learning & Training Portal (LMS)",
       description:
