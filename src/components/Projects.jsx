@@ -1,26 +1,26 @@
 export default function Projects() {
   const projects = [
-    // 1 Klue Drinks / Klue Website
-{
-  title: "Klue Drinks",
-  description:
-    "A modern, responsive learning platform built with React, featuring clean UI, reusable components, smooth client-side navigation, and optimized performance for a seamless user experience.",
-  tech: ["React", "Tailwind CSS", "React Router", "Context API"],
-  demo: "https://shubham-raj-keshri.github.io/klue-drink/",
-  github: "https://shubham-raj-keshri.github.io/klue-drink/",
-},
+    // 1 Klue Drinks / Brand Website
+    {
+      title: "Klue Drinks – Brand Website & E-Commerce UI",
+      description:
+        "Built and deployed a responsive React-based brand website using Tailwind CSS and React Router. Implemented reusable UI components, smooth client-side navigation, and cart state management while solving real-world GitHub Pages deployment challenges.",
+      tech: ["React", "Tailwind CSS", "React Router", "Context API"],
+      demo: "https://shubham-raj-keshri.github.io/klue-drink/",
+      github: "https://shubham-raj-keshri.github.io/klue-drink/",
+    },
 
-// 2 Fashion Cube – E-commerce App
+    // 2 Fashion Cube – E-commerce App
     {
       title: "Fashion Cube – E-commerce Web Application",
       description:
-        "A responsive fashion e-commerce web app featuring product listings, categories, recommendations, cart, and authentication with a scalable architecture.",
+        "A responsive fashion e-commerce application featuring product listings, categories, cart functionality, authentication flow, and scalable frontend architecture.",
       tech: [
-        "ReactJS",
+        "React",
         "Redux",
         "Redux Thunk",
         "React Router",
-        "Sass (SCSS)",
+        "SCSS",
         "Bootstrap",
         "Axios",
         "AOS Animation",
@@ -31,9 +31,9 @@ export default function Projects() {
 
     // 3 Jewel’s Galore – Full-Stack E-commerce
     {
-      title: "Jewel’s Galore – E-Commerce Website",
+      title: "Jewel’s Galore – Full-Stack E-commerce Website",
       description:
-        "A full-stack jewellery e-commerce application with modern UI, backend APIs, dynamic product handling, and deployment using GitHub Pages.",
+        "A full-stack jewellery e-commerce platform with modern UI, dynamic product management, REST APIs, backend integration, and deployment using GitHub Pages.",
       tech: [
         "React",
         "Vite",
@@ -47,32 +47,31 @@ export default function Projects() {
       github: "https://github.com/Shubham-Raj-Keshri/Jewel-s-Galore",
     },
 
-    // 4 Responsive Grocery / Restaurant Website
+    // 4 Responsive Grocery Website
     {
       title: "Responsive Grocery Website",
       description:
-        "A fully responsive grocery website with SwiperJS sliders, search form, login modal, shopping cart, auto UI resets, and smooth DOM-based interactions.",
+        "A fully responsive grocery website with SwiperJS sliders, search functionality, login modal, shopping cart UI, and smooth DOM-based interactions.",
       tech: ["HTML", "CSS", "JavaScript", "SwiperJS"],
       demo: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
       github: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
     },
 
-
-    // 5 Todo App – React State Management Practice
+    // 5 Todo App – React State Management
     {
-      title: "Todo App",
+      title: "Todo App – React State Management",
       description:
-        "A simple and clean Todo app focusing on React state management, allowing users to add, delete, complete, and filter tasks.",
+        "A clean and minimal Todo application focused on React state management, allowing users to add, delete, complete, and filter tasks efficiently.",
       tech: ["React", "JavaScript"],
       demo: "#",
       github: "#",
     },
 
-    // 6 Student LMS Project from Resume
+    // 6 Student LMS Project
     {
       title: "Student Learning & Training Portal (LMS)",
       description:
-        "A learning management system for creating, reviewing, and publishing online courses, assessments, quizzes, SCORM packages, and reusable templates.",
+        "A learning management system supporting course creation, assessments, quizzes, SCORM packages, reusable templates, and QA-tested workflows.",
       tech: ["HTML", "CSS", "JavaScript", "LMS", "SCORM", "QA Testing"],
       demo: "#",
       github: "#",
@@ -86,37 +85,39 @@ export default function Projects() {
           Featured <span className="text-orange-500">Projects</span>
         </h2>
 
-      <p className="text-gray-400 text-center max-w-3xl mx-auto text-lg mb-14">
-        Real-world projects built using modern tools, clean UI/UX, scalable architecture,
-        and industry best practices.
-      </p>
+        <p className="text-gray-400 text-center max-w-3xl mx-auto text-lg mb-14">
+          Real-world projects built using modern tools, clean UI/UX, scalable
+          architecture, and industry best practices.
+        </p>
 
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, idx) => (
             <div
               key={idx}
               className="bg-gray-900 border border-gray-800 rounded-2xl p-5 
-              hover:scale-105 transition-all duration-300 shadow-xl hover:border-orange-500 group"
+              hover:scale-105 transition-all duration-300 shadow-xl hover:border-orange-500"
             >
-              {/* Image */}
-              <div className="overflow-hidden rounded-xl mb-5 border border-gray-800 group-hover:border-orange-500 transition">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="rounded-xl group-hover:scale-110 duration-500"
-                />
-              </div>
+              {/* Optional Image */}
+              {project.image && (
+                <div className="overflow-hidden rounded-xl mb-5 border border-gray-800">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="rounded-xl hover:scale-110 duration-500"
+                  />
+                </div>
+              )}
 
               <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
               <p className="text-gray-400 mb-4">{project.description}</p>
 
               <div className="flex flex-wrap gap-2 mb-5">
-                {project.tech.map((t, i) => (
+                {project.tech.map((tech, i) => (
                   <span
                     key={i}
                     className="bg-gray-800/60 text-gray-300 px-3 py-1 rounded-full text-sm"
                   >
-                    {t}
+                    {tech}
                   </span>
                 ))}
               </div>
@@ -124,16 +125,18 @@ export default function Projects() {
               <div className="flex items-center justify-between mt-4">
                 <a
                   href={project.demo}
-                  className="text-orange-500 hover:text-orange-400 font-semibold"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-500 hover:text-orange-400 font-semibold"
                 >
                   Live Demo →
                 </a>
 
                 <a
                   href={project.github}
-                  className="text-gray-400 hover:text-white"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white"
                 >
                   GitHub ↗
                 </a>
