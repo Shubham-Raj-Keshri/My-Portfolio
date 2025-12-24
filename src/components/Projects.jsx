@@ -52,13 +52,13 @@ export default function Projects() {
 
     // 4️⃣ Brand Page – React Fundamentals Project
     {
-      title: "Brand Page – ReactJS UI",
+      title: "Klue Drinks – Brand Website & E-Commerce UI",
       description:
-        "A responsive and visually appealing brand landing page built using ReactJS, showcasing components, props, and state fundamentals.",
-      tech: ["ReactJS", "HTML", "CSS"],
+        "Built and deployed a responsive React-based brand website using Tailwind CSS and React Router, implementing smooth navigation, reusable UI components, and cart state management.Solved real-world GitHub Pages deployment challenges, including routing, asset handling, and SEO/social preview configuration.",
+      tech: ["React", "Tailwind CSS", "React Router", "Context API", "GitHub Pages"],
       image: "/projects/brand.png",
-      demo: "#",
-      github: "#",
+      demo: "https://shubham-raj-keshri.github.io/klue-drink/",
+      github: "https://shubham-raj-keshri.github.io/klue-drink/",
     },
 
     // 5️⃣ Todo App – React State Management Practice
