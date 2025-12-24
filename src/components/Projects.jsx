@@ -50,16 +50,8 @@ export default function Projects() {
       github: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
     },
 
-    // 4️⃣ Brand Page – React Fundamentals Project
-    {
-      title: "Klue Drinks – Brand Website & E-Commerce UI",
-      description:
-        "Built and deployed a responsive React-based brand website using Tailwind CSS and React Router, implementing smooth navigation, reusable UI components, and cart state management.Solved real-world GitHub Pages deployment challenges, including routing, asset handling, and SEO/social preview configuration.",
-      tech: ["React", "Tailwind CSS", "React Router", "Context API", "GitHub Pages"],
-      image: "/projects/brand.png",
-      demo: "https://shubham-raj-keshri.github.io/klue-drink/",
-      github: "https://shubham-raj-keshri.github.io/klue-drink/",
-    },
+  
+
 
     // 5️⃣ Todo App – React State Management Practice
     {
