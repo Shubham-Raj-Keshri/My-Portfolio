@@ -6,7 +6,6 @@ export default function Projects() {
   description:
     "A modern, responsive learning platform built with React, featuring clean UI, reusable components, smooth client-side navigation, and optimized performance for a seamless user experience.",
   tech: ["React", "Tailwind CSS", "React Router", "Context API"],
-  image: "/projects/klue.png",
   demo: "https://shubham-raj-keshri.github.io/klue-drink/",
   github: "https://shubham-raj-keshri.github.io/klue-drink/",
 },
@@ -26,7 +25,6 @@ export default function Projects() {
         "Axios",
         "AOS Animation",
       ],
-      image: "/projects/fashioncube.png",
       demo: "#",
       github: "#",
     },
@@ -45,7 +43,6 @@ export default function Projects() {
         "MongoDB",
         "JavaScript (ES6+)",
       ],
-      image: "/projects/jewelsgalore.png",
       demo: "https://shubham-raj-keshri.github.io/Jewel-s-Galore/",
       github: "https://github.com/Shubham-Raj-Keshri/Jewel-s-Galore",
     },
@@ -56,7 +53,6 @@ export default function Projects() {
       description:
         "A fully responsive grocery website with SwiperJS sliders, search form, login modal, shopping cart, auto UI resets, and smooth DOM-based interactions.",
       tech: ["HTML", "CSS", "JavaScript", "SwiperJS"],
-      image: "/projects/grocery.png",
       demo: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
       github: "https://shubham-raj-keshri.github.io/Responsive-Burger/",
     },
@@ -68,7 +64,6 @@ export default function Projects() {
       description:
         "A simple and clean Todo app focusing on React state management, allowing users to add, delete, complete, and filter tasks.",
       tech: ["React", "JavaScript"],
-      image: "/projects/todo.png",
       demo: "#",
       github: "#",
     },
@@ -79,7 +74,6 @@ export default function Projects() {
       description:
         "A learning management system for creating, reviewing, and publishing online courses, assessments, quizzes, SCORM packages, and reusable templates.",
       tech: ["HTML", "CSS", "JavaScript", "LMS", "SCORM", "QA Testing"],
-      image: "/projects/lms.png",
       demo: "#",
       github: "#",
     },
