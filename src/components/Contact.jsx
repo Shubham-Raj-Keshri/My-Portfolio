@@ -57,7 +57,7 @@ export default function Contact() {
             <div>
               <p className="text-gray-500 text-sm">LinkedIn</p>
               <a
-                href="https://linkedin.com/in/your-profile"
+                href="https://www.linkedin.com/in/shubham-raj-keshri/"
                 target="_blank"
                 className="text-lg text-orange-400 hover:text-orange-500"
               >
