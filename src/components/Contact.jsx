@@ -61,7 +61,7 @@ export default function Contact() {
                 target="_blank"
                 className="text-lg text-orange-400 hover:text-orange-500"
               >
-                linkedin.com/in/your-profile
+                linkedin.com/in/Shubham Raj Keshri
               </a>
             </div>
 
